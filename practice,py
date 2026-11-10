@@ -1,0 +1,23 @@
+class Car():
+    def move(self):
+        print("a")
+
+class Boat():
+    def move(self):
+        print("bo") 
+
+class Plane():
+    def move(self):
+        print("sda")
+
+def start_vehichle(vehicle):
+    vehicle.move()  
+
+
+car1= Car()
+boat1= Boat()
+plane1= Plane()
+
+vehichle= [car1, boat1, plane1]
+for vehicle in vehichle:
+    start_vehichle(vehicle)
