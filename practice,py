@@ -21,3 +21,5 @@ plane1= Plane()
 vehichle= [car1, boat1, plane1]
 for vehicle in vehichle:
     start_vehichle(vehicle)
+
+print("hifSGSBRHrhnsdkjtwe hgzk")
